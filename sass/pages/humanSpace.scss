@@ -79,33 +79,8 @@
 
 //@media query
 
-@media (max-weidht: 768px){
-    .container01Content{
-      
-        .titleHuman{
-            font-size: 90px;
-        }
-        img{
-            width: 150px;
-        }
-    }
-    .containerRightContent{
-        margin-left: 15%;
-    }
-    .containerLeftContent{
-        margin-left: 15%;
-    }
-    .earthDesc{
-        .textDescEarth{
-            font-size: 18px;
-            color: $table-item;
-            font-weight: 400;
-            width: auto;
-        }
-    }
-}
 
-@media (max-widht: 610px ){
+@media (max-widht: 788px ){
     .container01Conten{
       
         .titleHuman{
@@ -114,6 +89,9 @@
     }
     .subTitleHuman{
        font-size: 24px;
+    }
+    .earthDesc{
+        
     }
     .containerRightContent{
         margin-left: 5%;
