@@ -12,7 +12,8 @@
   min-width: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  overflow: hidden; }
 
 .arrowDown {
   display: inline-block;
@@ -56,13 +57,13 @@
     width: 150px;
     margin-top: 15px; } }
 .container00.container01 {
-  background-image: url(/images/home/01.jpg); }
+  background-image: url(../../images/home/01.jpg); }
 .container00.container02 {
-  background-image: url(/images/home/03.jpg); }
+  background-image: url(../../images/home/03.jpg); }
 .container00.container03 {
-  background-image: url(/images/home/02.gif); }
+  background-image: url(../../images/home/02.gif); }
 .container00.container04 {
-  background-image: url(/images/home/04.jpg); }
+  background-image: url(../../images/home/04.jpg); }
 
 .titlePadding {
   padding-top: 200px; }
@@ -87,21 +88,21 @@
     width: auto;
     font-size: 15px; } }
 .container00.container05 {
-  background-image: url(/images/falcon9/01.jpg); }
+  background-image: url(../../images/falcon9/01.jpg); }
 .container00.container06 {
-  background-image: url(/images/falcon9/02.jpg); }
+  background-image: url(../../images/falcon9/02.jpg); }
 .container00.carrossel01 {
-  background-image: url(/images/falcon9/03.jpg); }
+  background-image: url(../../images/falcon9/03.jpg); }
 .container00.carrossel02 {
-  background-image: url(/images/falcon9/04.jpg); }
+  background-image: url(../../images/falcon9/04.jpg); }
 .container00.carrossel03 {
-  background-image: url(/images/falcon9/05.jpg); }
+  background-image: url(../../images/falcon9/05.jpg); }
 .container00.carrossel04 {
-  background-image: url(/images/falcon9/06.jpg); }
+  background-image: url(../../images/falcon9/06.jpg); }
 .container00.carrossel05 {
-  background-image: url(/images/falcon9/07.jpg); }
+  background-image: url(../../images/falcon9/07.jpg); }
 .container00.container07 {
-  background-image: url(../../images/falcon9/08.jpg); }
+  background-image: url(images/falcon9/08.jpg); }
 
 .titleFalcon9 {
   font-size: 90px;
@@ -193,15 +194,15 @@ button {
   .subTitleFalcon {
     font-size: 16px; } }
 .container00.container08 {
-  background-image: url(/images/humanSpace/01.jpg); }
+  background-image: url(../../images/humanSpace/01.jpg); }
 .container00.container10 {
-  background-image: url(/images/humanSpace/02.jpg); }
+  background-image: url(../../images/humanSpace/02.jpg); }
 .container00.container11 {
-  background-image: url(/images/humanSpace/03.jpg); }
+  background-image: url(../../images/humanSpace/03.jpg); }
 .container00.container12 {
-  background-image: url(/images/humanSpace/04.jpg); }
+  background-image: url(../../images/humanSpace/04.jpg); }
 .container00.container13 {
-  background-image: url(/images/humanSpace/05.jpg); }
+  background-image: url(../../images/humanSpace/05.jpg); }
 
 .container01Content {
   height: 60vh;
@@ -252,6 +253,9 @@ button {
 
   .subTitleHuman {
     font-size: 24px; }
+
+  .earthDesc {
+    color: azure; }
 
   .containerRightContent {
     margin-left: 5%; }
