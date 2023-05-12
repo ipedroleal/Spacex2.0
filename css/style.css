@@ -51,11 +51,22 @@
     width: 180px;
     margin-top: 15px; }
     .logoPc .footer {
-      font-size: 10px; } }
-@media (max-width: 350px) {
+      font-size: 5px; } }
+@media (max-width: 375px) {
   .logoPc {
     width: 150px;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+
+  .copyDev {
+    font-size: 5px; } }
+@media (max-width: 320px) {
+  .container00 {
+    min-width: auto; }
+
+  .footer {
+    height: auto;
+    font-weight: auto;
+    padding-bottom: 20px; } }
 .container00.container01 {
   background-image: url(../../images/home/01.jpg); }
 .container00.container02 {
@@ -102,7 +113,7 @@
 .container00.carrossel05 {
   background-image: url(../../images/falcon9/07.jpg); }
 .container00.container07 {
-  background-image: url(images/falcon9/08.jpg); }
+  background-image: url(../../images/falcon9/07.jpg); }
 
 .titleFalcon9 {
   font-size: 90px;
@@ -193,6 +204,9 @@ button {
 
   .subTitleFalcon {
     font-size: 16px; } }
+@media (max-widht: 320px) {
+  .titleNumb {
+    font-size: 2px; } }
 .container00.container08 {
   background-image: url(../../images/humanSpace/01.jpg); }
 .container00.container10 {
@@ -210,7 +224,7 @@ button {
   justify-content: center;
   flex-direction: column; }
   .container01Content .titleHuman {
-    font-size: 300px; }
+    font-size: 60px; }
   .container01Content .subTitleHuman {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -249,9 +263,8 @@ button {
 
 @media (max-widht: 788px) {
   .container01Conten .titleHuman {
-    font-size: 60px; }
-
-  .subTitleHuman {
+    font-size: 40x; }
+  .container01Conten .subTitleHuman {
     font-size: 24px; }
 
   .earthDesc {
@@ -265,7 +278,18 @@ button {
 
   .titleSection {
     font-size: 50px; } }
-.container01Content .titleHuman {
-  font-size: 40px; }
+@media (mx-width: 375) {
+  .container01Conten .titleHuman {
+    font-size: 18x; }
+  .container01Conten .subTitleHuman {
+    font-size: 12px; } }
+@media (mx-width: 320) {
+  .container01Conten .titleHuman {
+    font-size: 12x; }
+  .container01Conten .subTitleHuman {
+    font-size: 12px; }
+
+  .textDescEarth {
+    height: 800px; } }
 
 /*# sourceMappingURL=style.css.map */

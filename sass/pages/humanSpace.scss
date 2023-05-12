@@ -22,7 +22,7 @@
     justify-content: center;
     flex-direction: column;
     .titleHuman{
-        font-size: 300px;
+        font-size: 60px;
        
     }
     .subTitleHuman{
@@ -82,14 +82,17 @@
 
 @media (max-widht: 788px ){
     .container01Conten{
+
       
         .titleHuman{
-            font-size: 60px;
+            font-size: 40x;
         }
-    }
+    
     .subTitleHuman{
        font-size: 24px;
     }
+    }
+
     .earthDesc{
         color: azure;
     }
@@ -99,17 +102,40 @@
     }
     .containerLeftContent{
         margin-left: 5%;
+        
     }
+
     .titleSection{
         font-size: 50px;
     }
     
 }
-@media (max-width: 380px){
-   
-} .container01Content{
+@media (mx-width: 375){
+    .container01Conten{
+
       
-    .titleHuman{
-        font-size: 40px;
+        .titleHuman{
+            font-size: 18x;
+        }
+    
+    .subTitleHuman{
+       font-size: 12px;
     }
-} 
+    }
+}
+
+@media (mx-width: 320){
+    
+    .container01Conten{
+        .titleHuman{
+            font-size: 12x;
+        }
+    
+    .subTitleHuman{
+       font-size: 12px;
+    }
+    }
+    .textDescEarth{
+        height: 800px;
+    }
+}

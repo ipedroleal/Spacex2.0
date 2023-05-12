@@ -66,14 +66,32 @@
         width: 180px;
         margin-top: 15px;
     .footer{
-        font-size: 10px;
+        font-size: 5px;
     }
+    
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 375px){
     .logoPc{
         width: 150px;
         margin-top: 15px;
     }
+    .copyDev{
+        font-size: 5px;
+    }
+
 }
+@media (max-width: 320px){
+    .container00{
+        min-width: auto;
+      }.footer{
+        height: auto;
+        font-weight: auto;
+        padding-bottom: 20px;
+      }
+    
+   
+}
+
+
