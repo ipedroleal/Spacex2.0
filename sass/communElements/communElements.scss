@@ -1,0 +1,78 @@
+.header{
+    font-size: 12px;
+    font-weight: bold;
+
+    #navItem{
+        &:hover{
+            color: $link-hover;
+        }
+    }
+}
+.container00{
+  min-width: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arrowDown{
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+.logoPc{
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+#button{
+    padding: $padding-button;
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
+}
+
+
+// Media query
+
+@media (max-widht: 450px){
+    .downloadDesc{
+        button{
+            margin: 10px 0px;
+        }
+    }
+}
+
+@media (max-width: 405px){
+    .logoPc{
+        width: 180px;
+        margin-top: 15px;
+    .footer{
+        font-size: 10px;
+    }
+    }
+}
+
+@media (max-width: 350px){
+    .logoPc{
+        width: 150px;
+        margin-top: 15px;
+    }
+}
