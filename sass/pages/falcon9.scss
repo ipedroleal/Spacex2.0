@@ -36,17 +36,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 60vh;
+    padding-bottom: 20%;
+   
+    
 }
 
 .numbers{
     background-color: black;
-    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+    
     .titleNumb{
         font-size: 90px;
+       
     }
     .subTitleNumb{
         font-size: 20px;
@@ -107,7 +113,7 @@ button{
 }
 
 
-// @media query
+// @media query responsividade 
 
 @media ( max-width: 768px){
 
@@ -128,9 +134,7 @@ button{
 } 
 
 @media ( max-width: 575px){
-    .numbers{
-        width: 60vh;
-    }
+    
     #overViewPosition{
         width: auto;
         margin-left: auto;      
@@ -147,7 +151,19 @@ button{
     .subTitleFalcon{
         font-size: 16px;
     }
+    .numbers{
+        width: 60vh;
+       
+    }
+    
 }
 
+
+@media (max-width: 320px){
+    .numbers{
+        width: 100vh;
+        
+    }
+}
 
 

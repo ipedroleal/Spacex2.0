@@ -124,14 +124,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 60vh; }
+  padding-bottom: 20%; }
 
 .numbers {
   background-color: black;
-  height: 40vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%; }
   .numbers .titleNumb {
     font-size: 90px; }
   .numbers .subTitleNumb {
@@ -188,9 +189,6 @@ button {
   #overViewPosition {
     padding-top: 35%; } }
 @media (max-width: 575px) {
-  .numbers {
-    width: 60vh; }
-
   #overViewPosition {
     width: auto;
     margin-left: auto; } }
@@ -203,7 +201,13 @@ button {
     line-height: auto; }
 
   .subTitleFalcon {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .numbers {
+    width: 60vh; } }
+@media (max-width: 320px) {
+  .numbers {
+    width: 100vh; } }
 .container00.container08 {
   background-image: url(../../images/humanSpace/01.jpg); }
 .container00.container10 {
@@ -216,7 +220,6 @@ button {
   background-image: url(../../images/humanSpace/05.jpg); }
 
 .container01Content {
-  height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column; }
@@ -230,12 +233,13 @@ button {
 
 .earthDesc {
   background-color: black;
-  height: 25vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%; }
   .earthDesc .textDescEarth {
-    font-size: 18px;
+    font-size: 16px;
     color: #d8d8d8;
     font-weight: 400;
     width: 800px; }
@@ -260,12 +264,13 @@ button {
 
 @media (max-widht: 768px) {
   .container01Conten .titleHuman {
-    font-size: 40x; }
+    font-size: 20px; }
   .container01Conten .subTitleHuman {
     font-size: 24px; }
 
   .earthDesc {
-    color: azure; }
+    color: azure;
+    margin-top: auto; }
 
   .containerRightContent {
     margin-left: 5%; }
@@ -276,17 +281,10 @@ button {
   .titleSection {
     font-size: 50px; } }
 @media (mx-width: 375) {
-  .container01Conten .titleHuman {
+  .titleHuman {
     font-size: 18x; }
-  .container01Conten .subTitleHuman {
-    font-size: 12px; } }
-@media (mx-width: 320) {
-  .container01Conten .titleHuman {
-    font-size: 12x; }
-  .container01Conten .subTitleHuman {
-    font-size: 12px; }
 
-  .textDescEarth {
-    height: 800px; } }
+  .subTitleHuman {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */
