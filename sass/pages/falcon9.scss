@@ -110,11 +110,11 @@ button{
 // @media query
 
 @media ( max-width: 768px){
-    .numbers{
-        .titleNumb{
-            font-size: 80px;
-        }
+
+    .titleContent{
+        padding-top: 120px;
     }
+   
     .subTitleNumb{
         font-size: 18px;
     }
@@ -137,7 +137,7 @@ button{
     }
 }
 
-@media (max-widht: 375px){
+@media ( max-width: 375px){
     .titleFalcon9{
         font-size: 50px;
     }.falcon9Desc{
@@ -149,8 +149,5 @@ button{
     }
 }
 
-@media (max-widht: 320px){
-    .titleNumb{
-       font-size: 2px;
-        }
-    }
+
+

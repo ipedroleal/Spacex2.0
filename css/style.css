@@ -176,8 +176,8 @@ button {
   margin-right: 10px; }
 
 @media (max-width: 768px) {
-  .numbers .titleNumb {
-    font-size: 80px; }
+  .titleContent {
+    padding-top: 120px; }
 
   .subTitleNumb {
     font-size: 18px; }
@@ -194,7 +194,7 @@ button {
   #overViewPosition {
     width: auto;
     margin-left: auto; } }
-@media (max-widht: 375px) {
+@media (max-width: 375px) {
   .titleFalcon9 {
     font-size: 50px; }
 
@@ -204,9 +204,6 @@ button {
 
   .subTitleFalcon {
     font-size: 16px; } }
-@media (max-widht: 320px) {
-  .titleNumb {
-    font-size: 2px; } }
 .container00.container08 {
   background-image: url(../../images/humanSpace/01.jpg); }
 .container00.container10 {
@@ -261,7 +258,7 @@ button {
   padding-top: 15%;
   padding-bottom: 180px; }
 
-@media (max-widht: 788px) {
+@media (max-widht: 768px) {
   .container01Conten .titleHuman {
     font-size: 40x; }
   .container01Conten .subTitleHuman {
