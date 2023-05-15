@@ -68,13 +68,13 @@
     font-weight: auto;
     padding-bottom: 20px; } }
 .container00.container01 {
-  background-image: url(../../images/home/01.jpg); }
+  background-image: url(../images/home/01.jpg); }
 .container00.container02 {
-  background-image: url(../../images/home/03.jpg); }
+  background-image: url(../images/home/03.jpg); }
 .container00.container03 {
-  background-image: url(../../images/home/02.gif); }
+  background-image: url(../images/home/02.gif); }
 .container00.container04 {
-  background-image: url(../../images/home/04.jpg); }
+  background-image: url(../images/home/04.jpg); }
 
 .titlePadding {
   padding-top: 200px; }
@@ -209,15 +209,15 @@ button {
   .numbers {
     width: 100vh; } }
 .container00.container08 {
-  background-image: url(../../images/humanSpace/01.jpg); }
+  background-image: url(../images/humanSpace/01.jpg); }
 .container00.container10 {
-  background-image: url(../../images/humanSpace/02.jpg); }
+  background-image: url(../images/humanSpace/02.jpg); }
 .container00.container11 {
-  background-image: url(../../images/humanSpace/03.jpg); }
+  background-image: url(../images/humanSpace/03.jpg); }
 .container00.container12 {
-  background-image: url(../../images/humanSpace/04.jpg); }
+  background-image: url(../images/humanSpace/04.jpg); }
 .container00.container13 {
-  background-image: url(../../images/humanSpace/05.jpg); }
+  background-image: url(../images/humanSpace/05.jpg); }
 
 .container01Content {
   display: flex;
